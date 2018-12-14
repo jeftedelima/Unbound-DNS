@@ -9,6 +9,8 @@ Template Unbound DNS - Zabbix
 
 [Unbound Documentation - Howto Statistics](https://nlnetlabs.nl/documentation/unbound/howto-statistics/)
 
+# Usage on crontab example:
+*/5   **** root sh /home/dir/unboundSend.sh 192.168.10.1 Unbound > /dev/null
 
 
 ## Graphs numbers of answers: 

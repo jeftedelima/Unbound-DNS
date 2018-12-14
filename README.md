@@ -7,6 +7,10 @@ Template Unbound DNS - Zabbix
 ## In the configuration file of unbound.conf it is necessary to activate the following options
 ![](https://i.ibb.co/nmYF7KW/statics.png)
 
+[Unbound Documentation - Howto Statistics](https://nlnetlabs.nl/documentation/unbound/howto-statistics/)
+
+
+
 ## Graphs numbers of answers: 
 ![](https://i.ibb.co/vj70h0T/Answer.png)
 

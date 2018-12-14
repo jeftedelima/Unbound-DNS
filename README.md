@@ -4,7 +4,7 @@ Template Unbound DNS - Zabbix
 ## You need to install [zabbix_sender](https://www.zabbix.com/download) on unbound
 [Zabbix Sender Documentation](https://www.zabbix.com/documentation/3.4/manual/concepts/sender)
 
-In the configuration file of unbound.conf it is necessary to activate the following options
+## In the configuration file of unbound.conf it is necessary to activate the following options
 ![](https://i.ibb.co/nmYF7KW/statics.png)
 
 ## Graphs numbers of answers: 

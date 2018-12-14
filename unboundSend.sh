@@ -10,7 +10,9 @@ if [ -z ${1} ] || [ -z ${2} ] ; then
 	exit 1
 fi
 
+# ZABBIX_SERVER IP
 IP_ZABBIX=$1
+# NAME Unbound on Zabbix
 NAME_HOST=$2
 DIR_TEMP=/var/tmp/
 FILE="${DIR_TEMP}dump_unbound_control_stats.txt"

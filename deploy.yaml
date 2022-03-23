@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vote
+  labels:
+    app: vote
+  namespace: vote
+spec:
+  replicas: 15
+  selector:
+    matchLabels:
+      app: vote
+  template:
+    metadata:
+      labels:
+        app: vote
+    spec:
+      containers:
+        - name: vote
+          image: jeftedelima/voto-modificado:1.1
+          ports:
+            - containerPort: 80
+              name: vote
+      #nodeSelector: 
+      # kubernetes.io/hostname: k8s-worker1       
